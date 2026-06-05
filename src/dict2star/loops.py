@@ -2,7 +2,7 @@
 import numpy as np
 from collections import OrderedDict as odict
 
-from values import tokenize, decode_key, decode_value
+from .values import tokenize, decode_key, decode_value
 
 
 def decode_loops(lines):

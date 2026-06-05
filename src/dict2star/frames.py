@@ -1,7 +1,7 @@
 
 from collections import OrderedDict as odict
-from values import decode_kv_pairs, encode_kv_pairs
-from loops import decode_loops, encode_loops
+from .values import decode_kv_pairs, encode_kv_pairs
+from .loops import decode_loops, encode_loops
 
 
 def split_frames(lines):

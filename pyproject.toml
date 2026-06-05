@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dict2star"
+version = "1.0.3"
+description = "A package for writing dictionaries into the Self-defining Text Archive and Retrieval (STAR) Format."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Travis Errthum" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = ["numpy"]
+
+
+[project.urls]
+Homepage = "https://github.com/errthumt/dict2star"
+Issues = "https://github.com/errthumt/dict2star/issues"

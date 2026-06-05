@@ -1,9 +1,9 @@
 
 from collections import OrderedDict as odict
 
-from frames import decode_frames, encode_frames
-from loops import decode_loops, encode_loops
-from values import decode_kv_pairs, encode_kv_pairs
+from .frames import decode_frames, encode_frames
+from .loops import decode_loops, encode_loops
+from .values import decode_kv_pairs, encode_kv_pairs
 
 
 def decode_blocks(lines):

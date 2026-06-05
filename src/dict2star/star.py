@@ -1,6 +1,6 @@
 
-from blocks import encode_blocks, decode_blocks
-from strings import normalize_strings
+from .blocks import encode_blocks, decode_blocks
+from .strings import normalize_strings
 
 
 class ParseError(Exception):
