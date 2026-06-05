@@ -76,6 +76,7 @@ def encode_frames(block):
 
 def encode_frame(frame):
     lines = []
+    lines.append(encode_frames(frame))
     lines.append(encode_kv_pairs(frame))
     lines.append(encode_loops(frame))
     return '\n'.join(lines)
